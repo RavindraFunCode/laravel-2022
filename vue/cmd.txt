@@ -1,0 +1,16 @@
+
+
+install node
+install vs code editor
+
+
+run for install vue
+	npm init vue@latest
+
+run for start server
+	cd <your-project-name>
+	npm install
+	npm run dev
+
+run for development to production
+	npm run build
