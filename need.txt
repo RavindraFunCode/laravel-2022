@@ -1,0 +1,69 @@
+1. file structure
+2. ORM->object relational mapper
+3. Packages
+4. Authentication
+5. Collections
+6. Short links
+7. group routing
+8. model
+9. Eloquent
+10. Payment Gateway
+11. Shipping API
+12. What is SSH
+13. CMD for production<-->Development
+14. how many type of db uses in laravel
+15. Events in laravel
+16. can i load blade file using ajax
+17. facades in laravel
+
+18. what is ini_set function
+19. string functions
+20. routes in ci
+21. shipping feature in ecommerce
+22. middleware in laravel
+23. call by reference function
+24. dif. bw print and echo
+25. migration
+26. 522 response code
+27. types of error in php and in frameworks
+
+=====================================
+
+blue brain technologies Private Ltd.
+
+cl/month
+working day/week
+in hand salary
+timing come and go
+distance 
+available leave for exam
+
+
+=================================================
+
+codefiles tech. Pvt. Ltd
+
+
+array_keys()
+array_values()
+array_merge()
+array_pop()
+array_push()
+array_search()
+array_sum()
+in_array()	
+count()
+asort()
+arsort()
+
+=====================================================
+
+need to show 
+
+flikmed-> https://flikmed.com/
+homeopathy -> https://www.homeopathyhere.com/
+myserviceera -> https://www.myserviceera.com/
+playnfit -> https://playnfit.in/
+perfectsportflooring -> perfectsportsflooring.com
+
+yantratools -> https://yantratools.com/

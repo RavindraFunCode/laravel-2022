@@ -1,0 +1,48 @@
+Install laravel
+	composer create-project laravel/laravel example-app
+
+
+Install Auth
+	composer require laravel/ui
+
+	php artisan ui vue --auth
+
+Make Model, Controller and Migration
+	php artisan make:model Model_Name -mcr
+
+Make Model and Migration
+	php artisanmake:model Model_name --migration
+
+Make Controller 
+	Basic
+		php artisan make:controller DemoController
+
+	Single Action
+		php artisan make:controller SingleActionController --invokable
+
+	Resourse Controller
+		php artisan make:controller PhotoController --resource
+Make Migration
+	
+	php artisan make:migration tbl_name
+	php artisan migrate:fresh
+	php artisan migrate:install
+	php artisan migrate:refresh
+	php artisan migrate:reset
+	php artisan migrate:rollback
+	php artisan migrate:status
+
+	add columns
+		php artisan make:migration add_columns_to_users_table
+
+create helper
+
+	composer dump-autoload
+
+
+
+
+
+Laravel Collective Html
+	composer require laravelcollective/html
+
