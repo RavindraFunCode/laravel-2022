@@ -23,8 +23,8 @@
         display:true,
         num:'s',
         names:['Ram', 'shyam', "Sita", "Radha"],
-        fullName:[
-          {"first": "Sita", "last":"Ram"},
+      fullName: [
+        { first: "Sita", last: "Ram" },
           {"first": "Radha", "last":"Shyam"},
         ],
         actors:[
