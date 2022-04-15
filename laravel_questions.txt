@@ -1,0 +1,19 @@
+Laravel Questions
+
+1. what is migrations
+2. Queue and Jobs
+3. What is Eloquent(ORM->object relational mapper), model
+4. middleware
+5. file structure
+6. Packages
+7. Authentication
+8. Collections
+9. group routing
+10. Events in laravel
+11. can i load blade file using ajax
+12. facades in laravel
+13. Packages
+14. Authentication
+15. Collections
+16. CMD for production<-->Development on live projects
+17. how many type of db uses in laravel

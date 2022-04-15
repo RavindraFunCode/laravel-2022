@@ -7,42 +7,36 @@
 7. group routing
 8. model
 9. Eloquent
-10. Payment Gateway
-11. Shipping API
-12. What is SSH
 13. CMD for production<-->Development
 14. how many type of db uses in laravel
 15. Events in laravel
 16. can i load blade file using ajax
 17. facades in laravel
+22. middleware in laravel
+25. migration
+
+=======================================================================================
+
+10. Payment Gateway
+11. Shipping API
+12. What is SSH
 
 18. what is ini_set function
 19. string functions
 20. routes in ci
 21. shipping feature in ecommerce
-22. middleware in laravel
 23. call by reference function
 24. dif. bw print and echo
-25. migration
 26. 522 response code
 27. types of error in php and in frameworks
 
-=====================================
-
-blue brain technologies Private Ltd.
-
-cl/month
-working day/week
-in hand salary
-timing come and go
-distance 
-available leave for exam
+28. sql query ex. -> get last 2nd greatest query
+29. OOPs Concepts in details
+30. traites in php
+31. hooks in ci
 
 
 =================================================
-
-codefiles tech. Pvt. Ltd
-
 
 array_keys()
 array_values()
