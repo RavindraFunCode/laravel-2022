@@ -35,6 +35,9 @@
 30. traites in php
 31. hooks in ci
 
+32. date functions (Ex. date interval time)
+33. What is Restful api and how it is working
+
 
 =================================================
 
