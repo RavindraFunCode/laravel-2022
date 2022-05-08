@@ -46,3 +46,11 @@ create helper
 Laravel Collective Html
 	composer require laravelcollective/html
 
+
+use library
+
+	use Session;
+	use App\Http\Controllers\Controller;
+	use Illuminate\Support\Facades\File;
+	use Illuminate\Support\Facades\DB;
+
