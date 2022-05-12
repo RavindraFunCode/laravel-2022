@@ -1,0 +1,25 @@
+
+https://www.laravelcode.com/post/laravel-8-ajax-crud-with-yajra-datatable-and-bootstrap-model-validation-example
+
+Yajra Datatable
+	composer require yajra/laravel-datatables-oracle
+
+add in config/app.php
+
+    'providers' => [
+        ...,
+        Yajra\DataTables\DataTablesServiceProvider::class,
+    ]
+
+    'aliases' => [
+        ...,
+        'DataTables' => Yajra\DataTables\Facades\DataTables::class,
+    ]
+
+run cmd
+    php artisan vendor:publish --provider="Yajra\DataTables\DataTablesServiceProvider"
+
+
+
+another
+https://makitweb.com/datatables-ajax-pagination-with-search-and-sort-in-laravel-8/

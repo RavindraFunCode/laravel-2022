@@ -40,11 +40,9 @@ create helper
 	composer dump-autoload
 
 
-
-
-
 Laravel Collective Html
 	composer require laravelcollective/html
+
 
 
 use library
