@@ -52,3 +52,5 @@ use library
 	use Illuminate\Support\Facades\File;
 	use Illuminate\Support\Facades\DB;
 
+role permission
+	https://www.itsolutionstuff.com/post/laravel-8-user-roles-and-permissions-tutorialexample.html
