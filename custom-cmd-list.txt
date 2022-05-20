@@ -1,4 +1,9 @@
 Install laravel
+	composer global require laravel/installer
+	laravel new example-app
+	
+	OR
+
 	composer create-project laravel/laravel example-app
 
 
@@ -62,3 +67,25 @@ php artisan cache:clear
 php artisan route:cache  
 php artisan config:cache  
 php artisan view:clear
+
+
+
+composer require laravel/breeze	--dev
+
+php artisan breeze:install
+
+
+npm install  &&  npm run dev
+
+
+composer require spatie/laravel-permission
+
+in config/app.php
+	Spatie\Permission\PermissionServiceProvider::class,
+
+
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+
+php artisan permission:create-role admin
+
+php artisan permission:create-permission "publish post"
