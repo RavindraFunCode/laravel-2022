@@ -1,0 +1,28 @@
+
+
+push
+
+	echo "# git-test" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/YOURUSERNAME/REPONAME.git
+	git push -u origin main
+
+pull
+	git remote add origin https://github.com/YOURUSERNAME/REPONAME.git
+	git branch -M main
+	git push -u origin main
+
+
+new commits
+	git add .
+	git commit -m "Explain what your commit is about here"
+	git push origin main
+
+
+warning: LF will be replaced by CRLF in webpack.mix.js.
+The file will have its original line endings in your working directory
+
+	git config core.autocrlf true
