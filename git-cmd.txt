@@ -2,7 +2,7 @@
 
 push
 
-	echo "# git-test" >> README.md
+	echo "# REPONAME" >> README.md
 	git init
 	git add README.md
 	git commit -m "first commit"
