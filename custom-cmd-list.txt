@@ -44,6 +44,26 @@ create helper
 
 	composer dump-autoload
 
+Make seeder
+	php artisan make:seeder UserSeeder
+
+	put code in DatabaseSeeder 
+		$this->call([
+            UserSeeder::class,
+        ]);
+    
+    php artisan db:seed
+ 	OR
+	php artisan db:seed --class=UserSeeder
+
+
+	php artisan migrate:fresh --seed
+
+	php artisan db:seed --force
+
+
+use Illuminate\Support\Facades\Schema;
+Schema::defaultStringLength(125);
 
 Laravel Collective Html
 	composer require laravelcollective/html
