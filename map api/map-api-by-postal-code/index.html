@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Place Autocomplete Restricted to Multiple Countries</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <style type="text/css">
+      #map-canvas {
+          width: 400px;
+          height: 400px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+
+    <!-- 
+     The `defer` attribute causes the callback to execute after the full HTML
+     document has been parsed. For non-blocking uses, avoiding race conditions,
+     and consistent behavior across browsers, consider loading using Promises
+     with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+    -->
+    <script  async defer 
+      src="https://maps.googleapis.com/maps/api/js?key=KEY&callback=initialize&libraries=places&v=weekly"
+    ></script>
+    <script type="text/javascript">
+
+        /*var postalCodes = [
+            '01067', // Dresden
+            '10405', // Berlin
+            '20359', // Hamburg
+        ];*/
+        var postalCodes = [
+            "5020", "5023", "5071", "5101"
+        ];
+        function initialize() {
+            google.maps.event.addDomListener(window, 'load', initialize);
+            var map = new google.maps.Map(document.getElementById('map-canvas'), {
+                center: new google.maps.LatLng(52.5167, 12.1833),
+                zoom:   6
+            });
+            
+            var geocoder = new google.maps.Geocoder();
+            
+            google.maps.event.addListenerOnce(map, 'tilesloaded', function() {
+                for (var i = 0; i < postalCodes.length; ++i) {
+                    geocoder.geocode({
+                        address: postalCodes[i],
+                        region: 'AT'
+                    }, function(result, status) {
+                        if (status == 'OK' && result.length > 0) {
+                            new google.maps.Marker({
+                                position: result[0].geometry.location,
+                                map: map
+                            });
+                        }
+                    });
+                }
+            });
+        }
+        $(document).ready(function() {
+        });
+    </script>
+  </body>
+</html>
