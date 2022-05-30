@@ -109,3 +109,16 @@ php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvid
 php artisan permission:create-role admin
 
 php artisan permission:create-permission "publish post"
+
+Route::get('/optimize', function() {
+    for ($i=0; $i < 5; $i++) { 
+        Artisan::call('optimize');
+    }
+    Artisan::call('view:clear');
+    Artisan::call('config:cache');
+    Artisan::call('route:cache');
+    Artisan::call('cache:clear');
+    Artisan::call('route:clear');
+    Artisan::call('optimize:clear');
+    return response()->json(['status'=>1, 'message'=>"Optimized!"]);
+});
